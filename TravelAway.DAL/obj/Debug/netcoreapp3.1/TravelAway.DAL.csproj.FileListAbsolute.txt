@@ -26,3 +26,4 @@ C:\Users\Prana\source\repos\TravelAway-main\TravelAway.DAL\obj\Debug\netcoreapp3
 C:\Users\Prana\source\repos\TravelAway-main\TravelAway.DAL\obj\Debug\netcoreapp3.1\TravelAway.DAL.dll
 C:\Users\Prana\source\repos\TravelAway-main\TravelAway.DAL\obj\Debug\netcoreapp3.1\TravelAway.DAL.pdb
 C:\Users\Prana\source\repos\TravelAway-main\TravelAway.DAL\obj\Debug\netcoreapp3.1\TravelAway.DAL.genruntimeconfig.cache
+C:\Users\Prana\source\repos\TravelAway-main\TravelAway.DAL\obj\Debug\netcoreapp3.1\TravelAway.DAL.sourcelink.json

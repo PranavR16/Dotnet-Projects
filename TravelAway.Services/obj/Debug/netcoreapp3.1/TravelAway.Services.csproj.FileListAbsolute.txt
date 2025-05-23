@@ -142,3 +142,4 @@ C:\Users\Prana\source\repos\TravelAway-main\TravelAway.Services\obj\Debug\netcor
 C:\Users\Prana\source\repos\TravelAway-main\TravelAway.Services\obj\Debug\netcoreapp3.1\TravelAway.Services.dll
 C:\Users\Prana\source\repos\TravelAway-main\TravelAway.Services\obj\Debug\netcoreapp3.1\TravelAway.Services.pdb
 C:\Users\Prana\source\repos\TravelAway-main\TravelAway.Services\obj\Debug\netcoreapp3.1\TravelAway.Services.genruntimeconfig.cache
+C:\Users\Prana\source\repos\TravelAway-main\TravelAway.Services\obj\Debug\netcoreapp3.1\TravelAway.Services.sourcelink.json
