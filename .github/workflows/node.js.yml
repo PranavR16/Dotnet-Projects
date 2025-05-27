@@ -26,7 +26,7 @@ jobs:
         run: npx ng build --configuration=production --base-href=/Dotnet-Projects/
         working-directory: TravelAwayWebApplication/TravelAway-Frontend
         env:
-          NODE_OPTIONS: --openssl-legacy-provide
+          NODE_OPTIONS: --openssl-legacy-provider
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
