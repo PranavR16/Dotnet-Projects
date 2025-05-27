@@ -5,7 +5,8 @@
 
 body {
 /*  background-color: skyblue !important;*/
-  background:url('/assets/img2.jpg') no-repeat center center;background-size:cover;
+  background:url("/Dotnet-Projects/assets/img2.jpg") no-repeat center center;background-size:cover;
   background-attachment:fixed;
   min-height: 100vh;
 }
+/*/assets/img2.jpg*/
