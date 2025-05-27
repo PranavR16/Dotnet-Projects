@@ -7,7 +7,7 @@ body {
   min-height: 100vh; /* Ensure body takes at least full viewport height */
 }
 .content {
-  min-height: calc(100vh - [height of common-layout]); /* Adjust content height */
+  min-height: calc(100vh - 60px); /* Adjust content height */
   width: 100%;
   position: relative; /* Keep for inner absolute positioning */
   text-align: center;
