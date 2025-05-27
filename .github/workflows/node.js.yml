@@ -29,7 +29,7 @@ jobs:
         run: npx ng build --configuration=production --base-href=/Dotnet-Projects/
 
       - name: Deploy to GitHub Pages
-        uses: angular-schule/ghpages-deploy-action@v1
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          folder: dist/TravelAwayApp
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: Dotnet-Projects/TravelAway Web Application/TravelAway-Frontend/dist/TravelAwayApp
