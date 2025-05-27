@@ -3,7 +3,7 @@ name: Deploy Angular App to GitHub Pages
 on:
   push:
     branches:
-      - main
+      - stage
 
 jobs:
   build-and-deploy:
@@ -20,14 +20,14 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
-        working-directory: Dotnet-Projects/TravelAwayWebApplication/TravelAway-Frontend
+        working-directory: TravelAway Web Application/TravelAway-Frontend
 
       - name: Build Angular app
         run: npx ng build --configuration=production --base-href=/Dotnet-Projects/
-        working-directory: Dotnet-Projects/TravelAwayWebApplication/TravelAway-Frontend
+        working-directory: TravelAway Web Application/TravelAway-Frontend
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: Dotnet-Projects/TravelAwayWebApplication/TravelAway-Frontend/dist/TravelAwayApp
+          publish_dir: TravelAway Web Application/TravelAway-Frontend/dist/TravelAwayApp
