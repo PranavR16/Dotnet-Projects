@@ -20,14 +20,14 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
-        working-directory: Dotnet-Projects/TravelAway Web Application/TravelAway-Frontend
+        working-directory: Dotnet-Projects/TravelAwayWebApplication/TravelAway-Frontend
 
       - name: Build Angular app
         run: npx ng build --configuration=production --base-href=/Dotnet-Projects/
-        working-directory: Dotnet-Projects/TravelAway Web Application/TravelAway-Frontend
+        working-directory: Dotnet-Projects/TravelAwayWebApplication/TravelAway-Frontend
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: Dotnet-Projects/TravelAway Web Application/TravelAway-Frontend/dist/TravelAwayApp
+          publish_dir: Dotnet-Projects/TravelAwayWebApplication/TravelAway-Frontend/dist/TravelAwayApp
