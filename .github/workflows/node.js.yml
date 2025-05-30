@@ -23,7 +23,7 @@ jobs:
         working-directory: TravelAwayWebApplication/TravelAway-Frontend
 
       - name: Build Angular app
-        run: npx ng build --configuration=production --base-href=/Dotnet-Projects/TravelAwayWebApplication/TravelAway-Frontend/
+        run: npx ng build --configuration=production --base-href=/Dotnet-Projects/
         working-directory: TravelAwayWebApplication/TravelAway-Frontend
         env:
           NODE_OPTIONS: --openssl-legacy-provider
