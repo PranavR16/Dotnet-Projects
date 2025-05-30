@@ -1,0 +1,7 @@
+C:\Users\Prana\source\repos\DAL\bin\Debug\DAL.dll.config
+C:\Users\Prana\source\repos\DAL\bin\Debug\DAL.dll
+C:\Users\Prana\source\repos\DAL\bin\Debug\DAL.pdb
+C:\Users\Prana\source\repos\DAL\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Prana\source\repos\DAL\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Prana\source\repos\DAL\obj\Debug\DAL.dll
+C:\Users\Prana\source\repos\DAL\obj\Debug\DAL.pdb
