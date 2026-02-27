@@ -1,9 +1,7 @@
-﻿################################################################################
+################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs
-/TravelAwayApplicationBackend.sln
 
 # Build and output directories
 bin/
@@ -17,7 +15,6 @@ obj/
 *.log
 
 # Entity Framework migrations
-Migrations/
 
 # Visual Studio-specific files
 .vs/
@@ -43,5 +40,5 @@ Thumbs.db
 .idea/
 
 # Git settings
-.gitignore
+
 
